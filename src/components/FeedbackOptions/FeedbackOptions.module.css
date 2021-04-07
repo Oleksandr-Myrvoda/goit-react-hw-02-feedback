@@ -1,0 +1,34 @@
+.list {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-align: 1.2;
+  font-weight: 700;
+}
+
+/* BUTTON */
+.button {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+
+  font-size: 15px;
+  line-height: 1.2;
+  color: #000;
+  background-color: #d1cfcf;
+  cursor: pointer;
+}
+
+.item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #0921ad;
+  color: #fff;
+}
