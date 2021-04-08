@@ -16,5 +16,3 @@ Section.propTypes = {
 };
 
 export default Section;
-
-// Создай компонент <Section title="">, который рендерит секцию с заголовком и детей (children).
